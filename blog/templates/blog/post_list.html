@@ -3,17 +3,20 @@
         <title>Django Girls blog</title>
     </head>
     <body>
-    <div>
-    <h1><a href="/">Django Girls Blog</a></h1>
-</div>
+        <div>
+            <h1><a href="/">Django Girls Blog</a></h1>
+        </div>
 
-{% for post in posts %}
-    <div>
-        <p>published: {{ post.published_date }}</p>
-        <h1><a href="">{{ post.title }}</a></h1>
-        <p>{{ post.text|linebreaksbr }}</p>
-    </div>
-{% endfor %}
+        <div>
+            <p>published: 07.08.2018, 2:14</p>
+            <h2><a href="">Apple is now a $1 trillion company</a></h2>
+            <p>Apple has become the first US company with a market cap of over $1 trillion. This follows a jump in its stock after reporting strong Q3 earnings that saw the iPhone maker surpass both its own projections and analysts’ estimates, while also making a strong forecast for its upcoming Q4 earnings.</p>
+        </div>
 
+        <div>
+            <p>published: 07.08.2018, 2:14</p>
+            <h2><a href="">Huawei shipped more smartphones than Apple in the second quarter</a></h2>
+            <p>Huawei overtook Apple and moved up into second place in market share of worldwide smartphone shipments in Q2 2018, according to data from IDC, Canalys, and Strategy Analytics. The company shipped over 54 million handsets in the second quarter compared to the 41.3 million iPhones that Apple sold and Samsung’s 73 million units. “The arrival of Huawei in the second position marks the first quarter since 2Q10 where Apple has not been the number one or two smartphone company in terms of market share,” IDC said in its press release.</p>
+        </div>
     </body>
 </html>
